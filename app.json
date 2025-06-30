@@ -1,22 +1,24 @@
 {
   "expo": {
-    "name": "guardian-gate-gcp",
-    "slug": "guardian-gate-gcp",
+    "name": "guardian-gate",
+    "slug": "guardian-gate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "guardiangategcp",
+    "scheme": "guardiangate",
     "userInterfaceStyle": "automatic",
-    "newArchEnabled": true,
+    "newArchEnabled": false,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.guardiangate"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "softwareKeyboardLayoutMode": "resize",
+      "package": "com.anonymous.guardiangate"
     },
     "web": {
       "bundler": "metro",
