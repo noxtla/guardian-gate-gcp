@@ -13,6 +13,8 @@ export default function RootLayout() {
     'OpenSans-SemiBold': require('../assets/fonts/OpenSans-SemiBold.ttf'),
   });
 
+  console.log('Fonts loaded status:', loadedFonts); // AÑADE ESTA LÍNEAls 
+
   if (!loadedFonts) {
     // Retorna null o un Splash Screen mientras las fuentes se cargan
     // En producción, `expo-splash-screen` gestiona esto automáticamente.
